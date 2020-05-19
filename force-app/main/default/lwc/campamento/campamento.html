@@ -1,0 +1,11 @@
+<template>
+    <div class=title>
+        {nombre}
+    </div>
+    
+
+    <template for:each={aventureros} for:item="avt">
+        <c-aventurero-detail key={avt.Id} aventurero={avt} onnamechanged={handlerNameChanged}></c-aventurero-detail>
+
+    </template>
+</template>

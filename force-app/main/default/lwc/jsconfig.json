@@ -8,6 +8,12 @@
             ],
             "c/padre": [
                 "padre/padre.js"
+            ],
+            "c/campamento": [
+                "campamento/campamento.js"
+            ],
+            "c/aventureroDetail": [
+                "aventureroDetail/aventureroDetail.js"
             ]
         }
     },
